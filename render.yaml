@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: chales-colo-de-mae
+    runtime: static
+    buildCommand: echo 'Static site'
+    staticPublishPath: .
